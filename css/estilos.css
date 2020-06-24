@@ -1,0 +1,798 @@
+*{
+	margin:0;
+	padding: 0;
+	
+}
+
+html{
+scroll-behavior: smooth;
+	margin:0;
+	padding: 0;
+	width: 100%;
+
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: rgb(26, 205, 236);
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	scroll-behavior: smooth;
+
+}
+.logo{
+	width: 5%;
+	height: 5%;
+	max-width: 700px;
+	max-height: 700px;
+}
+.botona{
+	border-radius: 10%;
+
+text-align: center;
+	border: solid 15px green;
+	background-color: green;
+	padding:5px;
+	justify-content: center;
+}
+.botona img{
+	margin-top: 10px;
+}
+
+#contenedor{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+
+}
+header{
+
+	width: 100%;
+	
+	background-color: grey;
+position: fixed;
+}
+
+#btn-menu{
+	display: none;
+}
+header label{
+
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #ffff;
+
+}
+header label:hover{
+	background-color: rgba(0,0,0,0.3);
+	cursor: pointer;
+
+
+}
+.menu ul{
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+
+}
+.menu li{
+	border-right: 1px solid #ffff;
+
+}
+.menu li:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+text-decoration: none;
+box-sizing: border-box;
+color: white;
+}
+#servicios{
+	background-image: url(../img/encabezado-diver.jpg);
+
+			width: 100%;
+			height: 773px;
+			background-color: aqua;
+			color: azure;
+background-size: 100% 100%;
+
+				
+			
+		}
+		#servicios h1{
+			margin-left: 200px;
+		
+			font-size: 40pt;
+		color: #ffff;
+		}
+		#servicios p{
+			margin-left: 200px;
+		float: left;
+		font-size: 24pt;
+		text-align: left;
+			display: table;
+		color: #ffff;
+		}
+		#mision{
+
+			background-image: url(../img/empresa-diver.jpg);
+			width: 100%;
+			height: 805px;
+			background-color: aqua;
+			color: azure;
+background-size: 100% 100%;
+
+				
+			
+		}
+		#mision h1{
+			text-align: center;
+			padding-top: 55px;
+			color: darkblue;
+					}
+					#izquierda{
+						
+						padding-top: 100px;
+						justify-content: center;
+						text-align: center;
+						display: table;
+						float: left;
+						width: 45%;
+						margin: auto;
+						box-sizing: border-box;		}
+						#izquierda2{
+						
+							padding-top: 100px;
+							justify-content: center;
+							text-align: center;
+							display: table;
+							float: left;
+							width: 45%;
+							margin: auto;
+							box-sizing: border-box;		}
+			
+				#izquierda h1, #derecha h1{
+			padding-left: 100px;
+			color: darkblue;
+					text-align: left;
+					margin: 0;
+				
+			font-size: 50px;
+				}
+				#izquierda p, #derecha p{
+					color: grey;
+					font-size: 20px;
+					padding-left: 100px;
+					text-align: left;
+						}	
+			
+					#derecha{
+						padding-top: 100px;
+						justify-content: center;
+						text-align: center;
+						display: table;
+						float: right;
+						width: 50%;
+						margin: auto;
+						box-sizing: border-box;
+					}
+
+					.ini{
+						border-left: 1px solid #ffff;
+					}
+		#equipo{
+
+			background-image: url(../img/equipo-diver.jpg);
+			width: 100%;
+			height: 1017px;
+			background-color: aqua;
+			color: azure;
+background-size: 100% 100%;
+
+			
+		}
+		.equipofototexto img{
+			max-width: 100%;
+		}
+		
+		.descrip{
+			text-align: center;
+			padding-top:3% ;
+			font-size: 25px;
+		}	
+		.titu{
+			padding-top: 10%;
+			font-size: 30px;
+			text-align: center;
+		}
+		.parra{
+			padding-top: 7%;
+			text-align: center;
+			font-size: 20px;
+		}
+		.equipofototexto{
+
+			width: 20%;
+			padding-top: 10%;
+			padding-left: 10%;
+			display: block;
+			float: left;
+			text-align: center;
+
+		}
+
+		#equipo h1{
+			padding-top: 3%;
+			color: white;
+			font-size: 40px;
+		text-align: CENTER;
+		}
+
+		#serviciosd{
+			background-image: url(../img/servicios-fondo.jpg);
+
+			width: 100%;
+			height:787px;
+			background-color: aqua;
+			color: azure;
+background-size: 100% 100%;
+
+				
+			
+		}
+		#izquierda2{
+			width: 46%;
+			margin-right: 4%;
+			height: 100%;
+		}
+
+		#derecha2{
+			padding-top: 5%;
+			width: 50%;
+		padding-right: 0%;
+			float: 	left;
+			box-sizing: border-box;
+		}
+		.servid{
+			padding-left: 0;
+			padding-top: 0%;
+			font-size: 40px;
+			color: rgb(20, 218, 236);
+			}
+			.servi{
+			padding-left: 0%;
+			padding-top: 0.1%;
+			}
+			#izquierda2 img{
+				display: block;
+				padding-left: 10%;
+				margin-left: 0%;
+max-width: 90%;				
+				float: left;
+				padding-top: 0%;
+				}
+			.servi li{
+				color: black;
+			padding-top: 5%;
+			font-size: 25px;
+			}
+			.flotante {
+				border-radius: 20%;
+				padding: 10px;
+				border: 30px;
+				background-color: white;
+				display:scroll;
+					position:fixed;
+					bottom:40px;
+					right:30px;
+			}
+#permisos{
+	background-size: 100% 100%;
+	width: 100%;
+	background-image: url(../img/permisos.jpg);
+	height: auto;
+	overflow: hidden;
+}
+#permisos h1{
+	text-align: center;
+	color: blanchedalmond;
+	padding-top: 5%;
+	font-size: 50pt;
+}
+#espafoto{
+	padding-left: 25%;
+}
+#permisos img{
+max-width: 50%;
+	padding-top: 5%;
+	height: 40%;
+	padding-right: 2%;
+float: left;
+}
+
+#afiliados{
+	background-image: url(../img/afiliados-fondo.jpg);
+background-size: 100% 100%;
+width: 100%;
+height:1074px ;
+}
+#afiliados h1{
+	padding-top: 10%;
+text-align: center;
+font-size: 50pt;
+
+}
+#lista{
+
+	text-align: left;
+	justify-content: center;
+	padding-left: 20%;
+	padding-top: 5%;
+}
+#lista ul{
+	list-style: none;
+}
+#lista li{
+	font-size: 25pt;
+}
+#lista img{
+	padding-top: 5%;
+	max-width: 100%;
+}
+#contacto{
+	overflow: hidden;
+	width: 100%;
+	background-image: url(../img/contactanos-fondo.jpg);
+	height: 575px;
+	background-size: 100% 100%;
+}
+#izquierda3{
+						justify-content: center;
+						text-align: center;
+						display: table;
+						float: left;
+						padding-top: 10%;
+						width: 45%;
+						margin: 0;
+						box-sizing: border-box;		}
+
+						#izquierda3 p{
+							color: white;
+						
+						}
+						#derecha3{
+							float: left;
+							text-align: center;
+							justify-content: center;
+							display: table;
+						
+							width: 47%;
+							padding-top: 10%;
+							margin: 0;
+							box-sizing: border-box;
+
+						}
+						#derecha3 p{
+						
+							color: white;
+						}
+.small{
+font-size: 11pt;
+font-weight: bold;
+}
+.bold{
+	font-size: 22pt;
+}
+/*
+#container{
+	width:100% ;
+	height: 800px;
+	margin: 5% auto;
+	padding-bottom: 5%;
+
+}
+.formulario-top{
+	width: 100%;
+	text-align: center;
+	padding: 10% 3%;
+	border-top: solid 10px red;
+	margin-bottom: 2%;
+}
+.formulario-top h2{
+	font-weight: bold;
+	color: tomato;
+	font-size: 18px;
+
+}
+h2 span{
+	color: thistle;
+}
+.registro{
+	padding: 0 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#btn_form{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 2%;
+}
+.input, .btn_submit{
+	padding: 10px;
+	margin: 30px 0;
+	border-radius: none;
+	border-bottom: yellow solid 3%;
+	transition: all 5s;
+
+}
+.input :focus{
+	border-bottom: solid violet 10px;
+
+}
+.btn_submit{
+	width: 40%;
+	border-bottom: none;
+	background-color: black;
+	color: blanchedalmond;
+}
+*/
+
+
+
+.container {
+
+	max-width: 1000px;
+	height: auto;
+	border-top:40px solid #0e213b ;
+	border-bottom:40px solid #0e213b ;
+	border-right: solid 240px #0e213b;
+	border-left: solid 240px #0e213b;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 16px;
+	
+}
+.logor{
+	
+	display: none;
+	
+}
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 32px 0 16px;
+	border-top: solid 6.4px grey;
+	margin-bottom: 16px;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #0e213b;
+}
+#right img{
+max-width: 100%;
+} 
+.form__reg {
+	padding: 0 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 16px;
+}
+
+.input, .btn__submit{
+	background-color: #EFEFEF;
+	padding: 8px;
+	margin: 8px 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+
+.btn__submit{
+	width: 40%;
+	border-bottom: none;
+	background-color: #31B1E5;
+	color: white;
+}
+
+
+
+.btn__submit:hover {
+	background-color: #4C9ED9;
+}
+#footer{
+	width: 100%;
+	height: 200px;
+	background-color: darkblue;
+}
+.big{
+	font-weight: bold;
+	font-size: 20pt;
+}
+#left{
+	padding-top: 1%;
+	width: 50%;
+	font-size: 12pt;
+	color: #ffff;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 20%;
+	line-height: 30px;
+}
+#right{
+	width: 50%;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 10%;
+	padding-top: 1%;
+	color: #ffff;
+	
+}
+
+
+		@media(max-width:768px){
+			#servicios{
+
+margin: 0 0 0 0 ;
+padding: 0 0 0 0;
+			}
+			#left{
+				font-size:10pt ;
+			}
+			
+			#servicios h1{
+				font-size:30pt ;
+margin: 0 0 0 0 ;
+padding-left: 2%;
+			}
+			#servicios p{
+				font-size: 18pt;
+				margin: 0 0 0 0;
+				padding-left: 2%;
+			}
+			header label{
+				display: block;
+			}
+			.container {
+				max-width: 1000px;
+				height: auto;
+				border-top:20px solid #0e213b ;
+				border-bottom:20px solid #0e213b ;
+				border-right: solid 120px #0e213b;
+				border-left: solid 120px #0e213b;
+				background-color: #EFEFEF;
+				margin: 5% auto;
+				padding-bottom: 16px;
+				
+			}
+	.ini{
+	border-left: none;
+	}
+
+			.logo{
+				display: none;
+			}
+			.logor{
+				display: block;
+				justify-content: center;
+				width: 40%;
+				height: 40%;
+				float: right;
+				text-align: center;
+				box-sizing: border-box;
+
+			
+				
+				
+			
+			}
+			.fin{
+				border-bottom: solid 1px #ffff ;
+			}
+		
+			#equipo img{
+			width: 100%;
+			height: 60%;
+		
+			}
+#permisos img{
+	padding-left: 8%;
+	height: auto;
+}
+			#izquierda2 img{
+				padding-left: 0;
+			}
+			.equipofototexto{
+padding: 5%;
+
+			}
+			.titu{
+				font-size: 23px;
+			}
+			.parra{
+				text-align: left;
+			}
+
+			/*
+			.descrip{
+				text-align: center;
+				padding-top:0 ;
+				font-size: 30px;
+			}	
+			.titu{
+				padding-top: 0;
+				font-size: 40px;
+				text-align: end;
+				padding-left: 120px;
+				
+			
+			}
+			.parra{
+				font-size: 30px;
+				float: none;
+				padding-top: 0;
+			
+				padding-left: 120px;
+				text-align: end;
+				line-height:30 px;
+			}
+			.equipofototexto{
+		margin:0;
+				justify-content: center;
+				
+	
+				height: auto;
+				width: 20%;
+				padding-bottom: 10%;
+
+				float: none;
+				padding-top: 0;
+				padding-left:18%;
+				
+			
+				text-align: center;
+	
+			}
+			#serviciosd{
+		
+			padding: 0;
+			margin: auto;
+			}
+			#serviciosd img{
+				height: auto;
+			
+				padding-left: 0;
+				float: none;
+				padding-top: 0;
+			}
+			.servi{
+				padding-left: 0;
+				padding-top: 0;
+			}
+			.servid{
+				padding-left: 0;
+				padding-top: 0;
+				font-size: 10px;
+			}
+			.servid li{
+				font-size: 5px;
+			}
+			*/
+			#afiliados{
+				padding-top: 35%;
+			}
+	#afiliados h1{
+		font-size: 25pt;
+	}
+	#lista li{
+		font-size: 15pt;
+	}
+	#permisos h1{
+		font-size: 30pt;
+	}
+			#izquierda h1, #derecha h1{
+				padding-left: 30px;
+				color: darkblue;
+						text-align: left;
+						margin: 0;
+					
+				font-size: 35px;
+					}
+					#izquierda p, #derecha p{
+						color: grey;
+						font-size: 18px;
+						padding-left: 30px;
+						text-align: left;
+							}	
+							#izquierda3, #derecha3{
+								float: none;
+								width: 100%;
+							}
+							.bold{
+								font-size: 18pt;
+							}
+							#izquierda3 p, #derecha3 p{
+								
+								text-align: center;
+								width: 100%;
+								padding-left: 2%;
+								margin: auto;
+
+							}
+				
+			/*
+			#izquierda{
+				margin: 0 0 0 0 ;
+				padding: 0 0 0 0;
+				margin-left: 0;
+				margin: auto;
+				height: auto;
+			}
+			
+			#izquierda p{
+				margin: 0;
+				margin-left: 0;
+				height: 100;
+				margin: 0 0 0 0 ;
+padding: 0 0 0 0;
+			}
+			#izquierda h1{
+		margin-left: 0;
+		margin: 0;
+		padding:0;
+		font-size:20pt ;
+			}
+			*/
+			.menu{
+				position:  absolute;
+				position: fixed;
+				margin: 0 0 0 0 ;
+padding: 0 0 0 0;
+				background-color: grey;
+			margin-left: -70%;
+				width: 60%;
+				transition: all 3.55;
+			}
+			.menu ul{
+				margin: 0 0 0 0 ;
+padding: 0 0 0 0;
+				flex-direction: column;
+			}
+			.menu li{
+				margin: 0 0 0 0 ;
+padding: 0 0 0 0;
+				border-right: 0;
+				border-top: 1px solid #ffff;
+			}
+			#btn-menu:checked ~ .menu{
+		margin:0 ;
+		margin: 0 0 0 0 ;
+		padding: 0 0 0 0;	
+			}
+		}
+
