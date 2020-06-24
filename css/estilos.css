@@ -632,7 +632,7 @@ padding: 5%;
 
 			}
 			.titu{
-				font-size: 23px;
+				font-size: 18px;
 			}
 			.parra{
 				text-align: left;
@@ -716,17 +716,17 @@ padding: 5%;
 		font-size: 30pt;
 	}
 			#izquierda h1, #derecha h1{
-				padding-left: 30px;
+				padding-left: 21px;
 				color: darkblue;
 						text-align: left;
 						margin: 0;
 					
-				font-size: 35px;
+				font-size: 28px;
 					}
 					#izquierda p, #derecha p{
 						color: grey;
-						font-size: 18px;
-						padding-left: 30px;
+						font-size: 12px;
+						padding-left: 21px;
 						text-align: left;
 							}	
 							#izquierda3, #derecha3{
